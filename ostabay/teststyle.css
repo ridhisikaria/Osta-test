@@ -1,0 +1,306 @@
+*{
+	box-sizing: border-box;
+	overflow: none;
+	overflow-wrap: all;
+}
+body{
+	font-family: Proxima Nova;
+	margin: 0px;
+}
+header{
+	width: 240px;
+ 	display: flex;
+	padding: 0px;
+	background: #01081F;
+}
+#header-nav{
+display: flex;
+flex-direction: column;
+padding:0;
+position: static;
+width: 240px;
+height: 64px;
+left: 0px;
+top: 0px;
+border-bottom: 1px solid #F1F2F6;
+}
+#navbarSupportedContent{
+	clear: left;
+	padding: 10px;
+	width: 240px;
+	background: #01081F;
+	height: 100%;
+}
+.heading{
+	position: absolute;
+	width: 137px;
+	height: 38px;
+	left: 0px;
+	top: 3px;
+}
+.navbar-header .navbar-brand{
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+padding-left: 20px;
+position: static;
+height: 64px;
+box-shadow: 0px 1px 0px rgba(196, 205, 213, 0.3);
+border-bottom: 0px;
+}
+.navbar-header .navbar-toggler-icon{
+	height: 28px;
+	width: 30px;
+	padding: 0px;
+}
+.navbar-header button.navbar-toggler{
+	border: 0px;
+	box-shadow: 1px 1px 1px 1px #777;
+	height: 35px;
+	width: 50px;
+	background: #01081F;
+	margin: 10px;
+}
+.navbar-header button:hover, .navbar-header button:active{
+	box-shadow: 1px 1px 1px 1px #000;
+	text-decoration: none;
+}
+.adminheader{
+position: absolute;
+width: 100%;
+height: 64px;
+left: 240px;
+top: 0px;
+border-bottom: 1px solid #F1F2F6;
+}
+.user{
+	border-radius: 50%;
+	float: right;
+	margin-top: 2px;
+	height: 60px;
+	width: 60px;
+}
+.frameking{
+display: flex;
+flex-direction: column;
+padding: 32px;
+position: absolute;
+width: 100%;
+height: 653px;
+left: 240px;
+top: 64px;
+}
+.framequeen{
+position: static;
+width: 100%;
+left: 32px;
+height: 44px;
+flex: none;
+order: 0;
+align-self: flex-start;
+margin-bottom: 32px;
+margin-right: 0px;
+margin-left: 0px;
+margin-top: 0px;
+}
+.queenhead{
+position: absolute;
+width: 137px;
+height: 38px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+color: #1C2C40;
+margin-bottom: 0px;
+}
+.framequeen .buttonframe{
+position: absolute;
+right: 32px;
+top: 32px;
+width: 200px;
+height: 44px;
+background: #2789E9;
+border-radius: 8px;
+}
+.framequeen .iconbutton{
+position: absolute;
+right: 0px;
+top: 0px;
+width: 200px;
+height: 44px;
+background: #2789E9;
+border-radius: 8px;
+color: white;
+border: 0px;
+}
+#icons{
+position: static;
+left: 0%;
+right: 88.24%;
+top: 12.5%;
+bottom: 12.5%;
+flex: none;
+order: 0;
+align-self: center;
+margin: 4px 0px;
+}
+#texts{
+position: static;
+left: 14.38%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+flex: none;
+order: 1;
+align-self: center;
+margin: 4px 0px;
+}
+.framejack{
+display: flex;
+flex-direction: column;
+padding: 0px;
+position: static;
+height: 513px;
+width: 100%;
+left: 32px;
+top: 108px;
+border: 1px solid #E5E9F2;
+box-sizing: border-box;
+border-radius: 8px;
+flex: none;
+order: 1;
+align-self: flex-start;
+margin: 0px
+}
+.headerrow{
+height: 64px;
+width: inherit;
+}
+.one{
+position: relative;
+width: 98px;
+left: 16px;
+top: 28.12%;
+bottom: 28.12%;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+color: #3C4858;
+}
+.headerrow form{
+position: static;
+width: 240px;
+height: 44px;
+left: 0px;
+top: 2px;
+flex: none;
+order: 0;
+align-self: center;
+margin: 2px 0px;
+}
+.headerrow input{
+position: relative;
+left: 0%;
+right: 0%;
+top: 15%;
+bottom: 0%;
+background: #F1F2F6;
+border-radius: 8px;
+border: 0px;
+font-family: Proxima Nova;
+}
+.title-row{
+height: 53px;
+border-bottom: 1px solid #F1F2F6;
+}
+.titles{
+font-family: Proxima Nova;
+text-shadow: 0px 0.5px 1px #000;
+position: relative;
+margin: 0px;
+display: flex;
+flex-direction: row;
+top: 0px;
+text-align: center;
+float: left;
+height: 52px;
+display: block;
+word-wrap: break-all;
+word-break: break-all;
+}
+.title1{
+padding: 16px 8px;
+width: 25%;
+left: 5.6%;
+order: 2;
+}
+.title2{
+padding: 16px;
+width: 25%;
+order: 3;
+}
+.title3{
+padding: 16px;
+width: 20%;
+order: 4;
+}
+.title4{
+padding: 16px;
+width: 17%;
+order: 5;
+}
+.title5{
+padding: 16px;
+width: 13%;
+order: 6;
+}
+.catrows{
+height: 88px;
+border-bottom: 1px solid #F1F2F6;
+padding: 0px 8px;
+}
+.catrows .scrollicon{
+position: relative;
+width: 24px;
+height: 24px;
+left: 8px;
+top: 32px;
+}
+.item-img{
+position: relative;
+background: url("stones2.jpg") no-repeat;
+width: 56px;
+bottom: 20px;
+height: 56px;
+border: 1px solid #000;
+border-radius: 8px;
+float: left;
+}
+.item-name{
+position: static;
+width: 152px;
+height: 20px;
+left: 8px;
+top: 16px;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+flex: none;
+order: 0;
+float: left;
+margin: 0px 4px;
+}
+.subcat{
+	margin-left: 5%;
+}

@@ -1,0 +1,146 @@
+*{
+	box-sizing: border-box;
+	overflow: auto;
+}
+#bg{
+	background: url("stones.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+body{
+	margin: 0;
+}
+#cur{
+	text-align: left;
+	color: blue;
+	float: left;
+
+}
+#logs{
+	height:20px;
+	font-family: Comic Sans;
+	font-size: 12px;
+	float: right;
+}
+.logo{
+	float: left;
+}
+.search{
+	float: right;
+	clear: right;
+	vertical-align: text-bottom;
+}
+.features{
+	text-align: center;
+}
+header{
+	text-shadow: 10;
+	background-color: white;
+}
+footer{
+	text-align: left;	
+	background-color: white;
+}
+
+@media (min-width: 1200px){
+
+#cur{
+	margin-left: 60px;
+}
+.logo{
+	margin-left: 80px;
+}
+.search{
+	margin-right: 20px;
+	width: 480px;
+	height: 30px;
+	float: right;
+	clear: right;
+	vertical-align: text-bottom;
+}
+.features{
+	text-align: center;
+}
+header{
+	text-shadow: 10;
+	height: 25px;
+}
+footer{
+	height: 25px; 
+}	
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+#cur{
+	margin-left: 40px;
+}
+.logo{
+	margin-left: 60px;
+}
+.search{
+	margin-right: 30px;
+	width: 320px;
+	height: 30px;
+	float: right;
+	clear: right;
+	vertical-align: text-bottom;
+}
+.features{
+	text-align: center;
+}
+header{
+	text-shadow: 10;
+	height: 25px;
+}
+footer{
+	height: 25px; 
+}	
+}
+@media (min-width: 600px) and (max-width: 991px){
+
+#cur{
+	margin-left: 20px;
+}
+.logo{
+	margin-left: 40px;
+}
+.search{
+	margin-right: 30px;
+	width: 200px;
+	height: 30px;
+}
+.features{
+	text-align: center;
+}
+header{
+	text-shadow: 10;
+	height: 25px;
+}
+footer{
+	height: 25px; 
+}	
+}
+@media (max-width: 599px){
+
+#cur{
+	margin-left: 10px;
+}
+.logo{
+	margin-left: 20px;
+}
+.search{
+	margin-right: 20px;
+	width: 300px;
+	height: 20px;
+}
+.features{
+	text-align: center;
+}
+header{
+	text-shadow: 20;
+	height: 25px;
+}
+footer{
+	height: 25px; 
+}	
+}
