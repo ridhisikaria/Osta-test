@@ -233,6 +233,7 @@ left: 0px;
 text-align: left;
 float: left;
 height: 52px;
+font-size: 1vw;
 }
 .title1{
 padding: .1% .05%;
@@ -308,16 +309,10 @@ display: block;
 	.title2{
 		width: 25%;
 	}
-	body{
-		font-size: 1vw;
-	}
 }
 
 @media (max-width: 761px){
 	.title2{
 		display: none;
-	}
-	body{
-		font-size: 1vw;
 	}
 }
