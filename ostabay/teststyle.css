@@ -1,7 +1,6 @@
 *{
 	box-sizing: border-box;
 	overflow: none;
-	overflow-wrap: all;
 }
 body{
 	font-family: Proxima Nova;
@@ -177,7 +176,7 @@ border-radius: 8px;
 flex: none;
 order: 1;
 align-self: flex-start;
-margin: 0px
+margin: 0px;
 }
 .headerrow{
 height: 64px;
@@ -230,36 +229,33 @@ margin: 0px;
 display: flex;
 flex-direction: row;
 top: 0px;
-text-align: center;
+left: 0px;
+text-align: left;
 float: left;
 height: 52px;
-display: block;
-word-wrap: break-all;
-word-break: break-all;
 }
 .title1{
-padding: 16px 8px;
+padding: .1% .05%;
 width: 25%;
 left: 5.6%;
 order: 2;
 }
 .title2{
-padding: 16px;
-width: 25%;
+padding: .1%;
 order: 3;
 }
 .title3{
-padding: 16px;
+padding: .1%;
 width: 20%;
 order: 4;
 }
 .title4{
-padding: 16px;
+padding: .1%;
 width: 17%;
 order: 5;
 }
 .title5{
-padding: 16px;
+padding: .1%;
 width: 13%;
 order: 6;
 }
@@ -279,7 +275,7 @@ top: 32px;
 position: relative;
 background: url("stones2.jpg") no-repeat;
 width: 56px;
-bottom: 20px;
+bottom: 10px;
 height: 56px;
 border: 1px solid #000;
 border-radius: 8px;
@@ -300,7 +296,28 @@ flex: none;
 order: 0;
 float: left;
 margin: 0px 4px;
+display: block;
 }
 .subcat{
 	margin-left: 5%;
+}
+.options{
+	float: right;
+}
+@media (min-width: 762px){
+	.title2{
+		width: 25%;
+	}
+	body{
+		font-size: 1vw;
+	}
+}
+
+@media (max-width: 761px){
+	.title2{
+		display: none;
+	}
+	body{
+		font-size: 3vw;
+	}
 }
