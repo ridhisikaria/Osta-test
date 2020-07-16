@@ -66,7 +66,7 @@ border: 0px;
 .adminheader{
 position: absolute;
 width: 81%;
-height: 10.2%;
+height: 10.4%;
 left: 19%;
 top: 0px;
 border-bottom: 1px solid #F1F2F6;
@@ -97,7 +97,6 @@ width: 80%;
 height: 8%;
 margin-bottom: 4%;
 margin-top: 0px;
-left: 20%;
 }
 .queenhead{
 position: relative;
@@ -107,6 +106,7 @@ font-family: Proxima Nova;
 font-size: 2.5vw;
 font-weight: 600;
 color: #1C2C40;
+left: 1%;
 }
 .framequeen .iconbutton{
 font-family: Proxima Nova;
@@ -114,7 +114,6 @@ font-size: 1.2vw;
 position: relative;
 float: right;
 width: 30%;
-margin-right: 8%;
 height: 75%;
 background: #2789E9;
 border-radius: 8px;
@@ -195,8 +194,6 @@ position: static;
 .cols{
 position: static;
 float: left;
-display: flex;
-flex-direction: row;
 text-align: left;
 }
 .col1{
@@ -288,10 +285,23 @@ white-space: normal;
 		width: 25%;
 	}
 }
+@media (min-width: 1200px){
+	.hammenu{
+		float: right;
+	margin: 5.33%;
+	}
+	.col1{
+		width: 28%;
+	}
+
+	.col2, .col3, .col4, .col5{
+		width: 16%;
+	}
+}
 @media (max-width: 992px){
 	.item-name{
 		float: right;
-		left: 13%;
+		left: 11%;
 		top: 80%;
 	}
 }
@@ -302,7 +312,7 @@ white-space: normal;
 		top: 35%;
 	}
 }
-@media (max-width: 549px){
+@media (max-width: 559px){
 	.item-img{
 		width: 15%;
 	}
@@ -315,24 +325,16 @@ white-space: normal;
 	.framejack{
 		margin-top: 20%;
 	}
+	.framequeen .iconbutton{
+		right: 15%;
+	}
 }
-@media (min-width: 550px){
+@media (min-width: 560px){
 	.item-img{
 		width: 56px;
 	}
-
-}
-@media (min-width: 1200px){
-	.hammenu{
-		float: right;
-	margin: 5.33%;
-	}
-	.col1{
-		width: 28%;
-	}
-
-	.col2, .col3, .col4, .col5{
-		width: 16%;
+	.framequeen .iconbutton{
+		left: 10%;
 	}
 }
 @media (min-width: 576px) and (max-width: 653px){
