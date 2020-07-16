@@ -1,0 +1,342 @@
+*{
+	box-sizing: border-box;
+	overflow-wrap: normal;
+}
+body{
+	font-family: Proxima Nova;
+	margin: 0px;
+	color: #1C2C40;
+}
+#header-nav{
+display: flex;
+flex-direction: column;
+position: static;
+width: 19%;
+min-width: 121px;
+height: 10.2%;
+background: #01081F;
+overflow: all;
+}
+.navbar-brand{
+padding-left: 8.33%;
+padding-right: 8.33%;
+padding-top: 5.33%;
+padding-bottom: 5.33%;
+float: left;
+}
+.hammenu button.navbar-toggler{
+	width: 40px;
+	border: 0px;
+	box-shadow: 1px 1px 1px 1px #777;
+	height: 100%;
+	background: #01081F;
+	align-self: left;
+	padding: 5px;
+}
+.hammenu i.icon{
+	margin: 2%;
+	padding: 0px;
+}
+#navbarSupportedContent{
+	border-top: 1px solid rgba(241, 242, 246, 0.2);
+	float: left;
+	background-color: #01081F;
+}
+.navbar-nav a:hover{
+	background-color: rgba(39, 137, 233, 0.2);
+	color: gray;
+}
+.navbar-nav .act{
+	border-left: 4px solid #2789E9;
+	border-radius: 4px;
+}
+.nav-item{
+	font-size: 1.1vw;
+	margin: 4%;
+	position: static;
+	height: 10%;
+}
+.dropdown-menu, .dropdown-item{
+background: #01081F;
+margin: 0px;
+color: #fff;
+padding: 0px;
+border: 0px;
+}
+.adminheader{
+position: absolute;
+width: 81%;
+height: 10.2%;
+left: 19%;
+top: 0px;
+border-bottom: 1px solid #F1F2F6;
+}
+.adminheader .user{
+	position: relative;
+	float: right;
+	top: 0px;
+	border-radius: 50px;
+	height: 55px;
+	margin: 1px;
+	width: 55px;
+}
+.frameking{
+display: flex;
+flex-direction: column;
+padding: 5%;
+position: absolute;
+width: 83%;
+left: 17%;
+min-width: 180px;
+margin: 0px;
+top: 7%;
+}
+.framequeen{
+position: absolute;
+width: 80%;
+height: 8%;
+margin-bottom: 4%;
+margin-top: 0px;
+left: 20%;
+}
+.queenhead{
+position: relative;
+float: left;
+width: 21%;
+font-family: Proxima Nova;
+font-size: 2.5vw;
+font-weight: 600;
+color: #1C2C40;
+}
+.framequeen .iconbutton{
+font-family: Proxima Nova;
+font-size: 1.2vw;
+position: relative;
+float: right;
+width: 30%;
+margin-right: 8%;
+height: 75%;
+background: #2789E9;
+border-radius: 8px;
+color: white;
+border: 0px;
+}
+.framejack{
+padding: 0px;
+position: relative;
+height: 100%;
+width: 100%;
+border: 1px solid #E5E9F2;
+border-radius: 8px;
+order: 1;
+margin-top: 13%;
+color:  #1C2C40;
+font-family: Proxima Nova;
+font-weight: 600;
+}
+.row1{
+position: static;
+height: 50px;
+width: inherit;
+margin-bottom: 2%;
+border: 0px;
+}
+.one{
+position: absolute;
+left: 2.5%;
+top: 2.5%;
+font-size: 1.5vw;
+color: #3C4858;
+}
+.two input{
+float: right;
+position: absolute;
+width: 40%;
+height: 10%;
+float: right;
+right: 25%;
+top: 1%;
+flex: none;
+order: 0;
+border-radius: 8px;
+background: #F1F2F6;
+border: 0px;
+}
+span.three{
+position: absolute;
+float: right;
+right: 12%;
+margin: 2%;
+width: 8%;
+}
+span.four{
+position: absolute;
+float: right;
+right: 7%;
+margin: 2%;
+width: 5%;
+}
+span.five{
+position: absolute;
+float: right;
+right: 3%;
+margin: 2%;
+width: 2.5%;
+}
+.row2{
+margin-top: 2%;
+border-bottom: 1px solid #F1F2F6;
+height: 30px;
+font-family: Proxima Nova;
+font-size: 1vw;
+text-align: center;
+position: static;
+}
+.cols{
+position: static;
+float: left;
+display: flex;
+flex-direction: row;
+text-align: left;
+}
+.col1{
+padding: .1% 2%;
+}
+.col2{
+padding: .1%;
+}
+.col3{
+padding: .1%;
+}
+.col4{
+padding: .1%;
+}
+.col5{
+padding: .1%;
+}
+.catrows{
+height: 88px;
+border-bottom: 1px solid #F1F2F6;
+position: relative;
+font-size: 1vw;
+}
+.scrollicon{
+	position: absolute;
+	left: 2%;
+	top: 30%;
+	width: 2%;
+	height: 25%;
+}
+.dropicon{
+	position: absolute;
+	left: 4%;
+	top: 30%;
+	width: 2%;
+	color: darkgray;
+	text-decoration: none;
+	float: left;
+}
+.item-img{
+position: absolute;
+background: url("stones2.jpg") no-repeat;
+left: 6%;
+top: 15%;
+height: 60%;
+border-radius: 8px;
+float: left;
+}
+.tts{
+	position: relative;
+	top: 32%;
+	white-space: normal;
+	float: left;
+}
+.item-name{
+position: absolute;
+text-overflow: ellipsis;
+white-space: normal;
+}
+.togs{
+	position: absolute;
+	top: 25%;
+	float: left;
+}
+.togdots{
+	position: relative;
+	right: 28%;
+}
+.options{
+	position: absolute;
+	right: 5%;
+	top: 30%;
+	float: right;
+}
+.subcat .scrollicon{
+	padding-left: 1%;
+	margin: 0px;
+}
+@media (max-width: 1200px){
+	.adminheader{
+		border: 0px;
+	}
+	.hammenu{
+		float: left;
+		clear: left;
+		margin: 5.33%;
+	}
+	.col1, .col3, .col4, .col5{
+		width: 25%;
+	}
+}
+@media (max-width: 992px){
+	.item-name{
+		float: right;
+		left: 13%;
+		top: 80%;
+	}
+}
+@media (min-width: 993px){
+	.item-name{
+		float: left;
+		left: 15%;
+		top: 35%;
+	}
+}
+@media (max-width: 549px){
+	.item-img{
+		width: 15%;
+	}
+	.frameking{
+		padding-right: 5%;
+		padding-bottom: 5%;
+		padding-top: 5%;
+		padding-left: 21%;
+	}
+	.framejack{
+		margin-top: 20%;
+	}
+}
+@media (min-width: 550px){
+	.item-img{
+		width: 56px;
+	}
+
+}
+@media (min-width: 1200px){
+	.hammenu{
+		float: right;
+	margin: 5.33%;
+	}
+	.col1{
+		width: 28%;
+	}
+
+	.col2, .col3, .col4, .col5{
+		width: 16%;
+	}
+}
+@media (min-width: 576px) and (max-width: 653px){
+	.adminheader{
+		left: 22%;
+	}
+}
