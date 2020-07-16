@@ -93,7 +93,7 @@ top: 7%;
 }
 .framequeen{
 position: absolute;
-width: 80%;
+width: 88%;
 height: 8%;
 margin-bottom: 4%;
 margin-top: 0px;
@@ -326,15 +326,12 @@ white-space: normal;
 		margin-top: 20%;
 	}
 	.framequeen .iconbutton{
-		right: 15%;
+		right: 22%;
 	}
 }
 @media (min-width: 560px){
 	.item-img{
 		width: 56px;
-	}
-	.framequeen .iconbutton{
-		left: 10%;
 	}
 }
 @media (min-width: 576px) and (max-width: 653px){
